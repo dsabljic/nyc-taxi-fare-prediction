@@ -1,6 +1,6 @@
 # nyc-taxi-fare-prediction
 
-Predicting NYC taxi fares based on several features such as pickup/dropoff location, current day of the week, time of day, number of passengers along some engineered features.
+Predviđanje cijene taksi vožnje u NYC-u višeslojnim perceptronom posluženim na jednostavnoj stranici.
 
-Web app made and deployed with Streamlit
+Aplikacija napravljena i poslužena sa `Straemlit` modulom.
 https://dsabljic-nyc-taxi-fare-prediction-app-4w64qw.streamlitapp.com/
