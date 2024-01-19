@@ -42,11 +42,3 @@ The project is deployed using Streamlit, creating an accessible web application.
 ## Contributions
 
 Contributions to this project are welcome. Please fork the repository and submit a pull request for review.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
----
-
-This README provides a high-level overview of the NYC Taxi Fare Prediction project. For more detailed information, refer to the documentation within each directory.
