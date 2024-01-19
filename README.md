@@ -1,4 +1,4 @@
-# NYC Taxi Fare Prediction Project
+# NYC Taxi Fare Prediction
 
 ## Project Overview
 
