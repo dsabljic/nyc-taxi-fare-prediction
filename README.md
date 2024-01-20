@@ -36,7 +36,7 @@ The project is deployed using Streamlit, creating an accessible web application.
 
 1. **Clone the Repository**: Clone this repo to your local machine.
 2. **Install Dependencies**: Run `pip install -r requirements.txt` to install required packages.
-3. **Run the Web App**: Execute `streamlit run app/main.py` to start the Streamlit application.
+3. **Run the Web App**: Execute `streamlit run app/app.py` to start the Streamlit application.
 4. **Predict Fares**: Enter the ride details on the web interface and receive fare predictions.
 
 ## Contributions
