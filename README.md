@@ -23,7 +23,7 @@ This project aims to accurately predict New York City taxi fares using various f
 
 The project is deployed using Streamlit, creating an accessible web application. This application allows users to enter ride details in natural language, which are then processed and used to predict the fare.
 
-## Repository Structure
+## Repository Structure (TODO)
 
 - `model/`: Contains the serialized model file.
 - `scripts/`: Includes scripts for training the model and preprocessing data.
