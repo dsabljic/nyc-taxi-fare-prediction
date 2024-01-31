@@ -23,7 +23,7 @@ To set up this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/nyc-taxi-fare-prediction.git
+   git clone https://github.com/dsabljic/nyc-taxi-fare-prediction.git
    ```
 2. Navigate to the repository folder:
    ```bash
