@@ -7,13 +7,14 @@ This project aims to accurately predict New York City taxi fares using various f
 Dataset: [New York City Taxi Fare](https://www.kaggle.com/competitions/new-york-city-taxi-fare-prediction)
 ## Repository Contents
 
-- `Predicting Taxi Fares.ipynb`: A Jupyter notebook that contains data loading, preprocessing, model building with MLP and XGBRegressor, and model selection.
-- `app.py`: The main script that runs the Streamlit application for the project.
+- `models`
+   - `Predicting Taxi Fares.ipynb`: A Jupyter notebook that contains data loading, preprocessing, model building with MLP and XGBRegressor, and model selection.
+   - `saved_model.pkl`: The saved XGBRegressor model serialized using the pickle module.
+   - `utils.py`: Contains utility functions for preprocessing and feature engineering required for the model.
 - `geocoding.py`: Implements a geocoding class that uses the Position Stack API (https://positionstack.com/) to convert addresses into coordinates.
-- `utils.py`: Contains utility functions for preprocessing and feature engineering required for the model.
-- `saved_model.pkl`: The saved XGBRegressor model serialized using the pickle module.
-- `requirements.txt`: Lists all the Python dependencies necessary to run the project locally or deploy it.
 - `predict_page.py`: Defines the main functionality of the Streamlit page. It utilizes the utility functions for preprocessing, feature engineering, making predictions, and displaying the results.
+- `app.py`: The main script that runs the Streamlit application for the project.
+- `requirements.txt`: Lists all the Python dependencies necessary to run the project locally or deploy it.
 
 ## Deployment
 The Streamlit web application is currently hosted and can be accessed [here](https://dsabljic-nyc-taxi-fare-prediction-app-4w64qw.streamlitapp.com/).
