@@ -4,6 +4,7 @@
 
 This project aims to accurately predict New York City taxi fares using various features such as pickup and dropoff coordinates, passenger count, day of the week, and hour of the ride. The model focuses on enhancing the accuracy of fare estimation by including engineered features like travel distance and distances from major airports (JFK, LaGuardia, Newark). The project uses a combination of Multi-Layer Perceptron (MLP) and XGBoost Regressor (XGBRegressor) for the machine learning model. After comparing both models, the XGBRegressor was chosen for deployment due to its performance. The model was serialized using the `pickle` module for [deployment](https://dsabljic-nyc-taxi-fare-prediction.streamlit.app/).
 
+Dataset: (New York City Taxi Fare)[https://www.kaggle.com/competitions/new-york-city-taxi-fare-prediction]
 ## Repository Contents
 
 - `Predicting Taxi Fares.ipynb`: A Jupyter notebook that contains data loading, preprocessing, model building with MLP and XGBRegressor, and model selection.
