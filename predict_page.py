@@ -12,7 +12,7 @@ def euc_distance(lat1, long1, lat2, long2):
     return (((lat1-lat2)**2 + (long1-long2)**2)**0.5)
 
 def load_data():
-    with open('saved_model.pkl' , 'rb') as file:
+    with open('./models/saved_model.pkl' , 'rb') as file:
         data = pickle.load(file)
     
     return data
