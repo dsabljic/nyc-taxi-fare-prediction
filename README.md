@@ -31,7 +31,7 @@ To set up this project locally, follow these steps:
    ```
 3. Set up a Python virtual environment (optional but recommended):
    ```bash
-   python -m venv venv
+   python3 -m venv venv
    ```
    Activate the virtual environment:
    - On Windows:
@@ -44,7 +44,7 @@ To set up this project locally, follow these steps:
      ```
 4. Install the required dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 
 5. Run the Streamlit app locally:
