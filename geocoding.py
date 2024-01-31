@@ -1,5 +1,6 @@
 import http.client, urllib.parse
 import json
+import streamlit as st
 
 class Geocoding:
 
@@ -8,7 +9,7 @@ class Geocoding:
         conn = http.client.HTTPConnection('api.positionstack.com')
 
         params = urllib.parse.urlencode({
-            'access_key': 'e183e10f93703be8bd0aa183b6217af4',
+            'access_key': st.secrets['position_stack_api'], # replace with your own API key if you're running it locally
             'query': self.address,
             'region': 'New York',
             'limit': 1,
