@@ -2,15 +2,7 @@
 
 ## Project Overview
 
-This project aims to accurately predict New York City taxi fares using various features such as pickup and dropoff coordinates, passenger count, day of the week, and hour of the ride. The model focuses on enhancing the accuracy of fare estimation by including engineered features like travel distance and distances from major airports (JFK, LaGuardia, Newark). XGBoost Regressor (XGBRegressor) is used for training and prediction. The model was serialized using the pickle module for [deployment](https://dsabljic-nyc-taxi-fare-prediction-app-4w64qw.streamlitapp.com/).
-
----
-# NYC Taxi Fare Prediction
-
-This repository hosts the code for a machine learning project aimed at predicting New York City taxi fares using various Python libraries and a web application built with Streamlit.
-
-## Overview
-The project uses a combination of Multi-Layer Perceptron (MLP) and XGBoost Regressor (XGBRegressor) for the machine learning model. After comparing both models, the XGBRegressor was chosen for deployment due to its performance.
+This project aims to accurately predict New York City taxi fares using various features such as pickup and dropoff coordinates, passenger count, day of the week, and hour of the ride. The model focuses on enhancing the accuracy of fare estimation by including engineered features like travel distance and distances from major airports (JFK, LaGuardia, Newark). The project uses a combination of Multi-Layer Perceptron (MLP) and XGBoost Regressor (XGBRegressor) for the machine learning model. After comparing both models, the XGBRegressor was chosen for deployment due to its performance. The model was serialized using the `pickle` module for [deployment](https://dsabljic-nyc-taxi-fare-prediction-app-4w64qw.streamlitapp.com/).
 
 ## Repository Contents
 
